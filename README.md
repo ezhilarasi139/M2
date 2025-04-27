@@ -37,22 +37,9 @@ int main() {
 ## OUTPUT:
 ![image](https://github.com/user-attachments/assets/96dfa16c-8704-44a7-94a7-91b9eefb138e)
 
-
-
-
-
-
-
-
-
-
-
 ## RESULT:
 Thus the program to print even numbers ranging from M to N (including M and N values) has been executed successfully
  
- 
-
-
 # EX-07-Nested-loop
 
 ## AIM:
@@ -97,8 +84,6 @@ int main() {
 
 Thus the program to print the given triangular pattern using loop has been executed successfully
  
- 
-
 
 # EX-08-Functions
 
@@ -141,17 +126,10 @@ int main() {
 ## OUTPUT:
 ![image](https://github.com/user-attachments/assets/645bd51e-5ead-4f39-a6f7-425b5505ac01)
 
-
-
-
-
-
 ## RESULT:
 
 Thus the program to perform addition and subtraction of two numbers using functions has been executed successfully
  
- 
-
 
 # EX-09-Use For Loop
 
@@ -192,14 +170,9 @@ int main() {
 ## OUTPUT:
 ![image](https://github.com/user-attachments/assets/76cc186f-3ae6-4f0a-8393-765178dfe445)
 
-
-
 ## RESULT:
 
 Thus the program to find the sum of odd digits using for loop has been executed successfully.
-
-
-
 
 # EX – 10 - Factorial of a Number Using a Function
 ## AIM:
@@ -235,10 +208,8 @@ int main() {
 }
 
 ```
-
 ## OUTPUT:
 ![image](https://github.com/user-attachments/assets/c6ce0fe0-a011-40a6-a9a7-0614b61099dc)
-
 
 ## RESULT:
 The program correctly computes the factorial of a given number using a separate function and displays the result.
