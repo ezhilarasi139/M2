@@ -226,7 +226,7 @@ void fact() {
     for (i = 1; i <= N; i++) {
         fact *= i;
     }
-    printf("Factorial value is: %ld\n", N, fact);
+    printf("Factorial value is: %ld\n",fact);
 }
 
 int main() {
