@@ -217,9 +217,28 @@ d.	After the loop, print the factorial value.
 5.	End
 
 ## PROGRAM:
+```
+#include <stdio.h>
+void fact() {
+    int N, i;
+    long fact = 1;
+    scanf("%d", &N);
+    for (i = 1; i <= N; i++) {
+        fact *= i;
+    }
+    printf("Factorial of value is: %ld\n", N, fact);
+}
 
+int main() {
+    fact();
+    return 0;
+}
+
+```
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/c6ce0fe0-a011-40a6-a9a7-0614b61099dc)
+
 
 ## RESULT:
 The program correctly computes the factorial of a given number using a separate function and displays the result.
