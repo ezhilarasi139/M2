@@ -16,14 +16,17 @@ Write a C program to print even numbers ranging from M to N (including M and N v
 #include <stdio.h>
 
 int main() {
-    int rows, i, j;
-    printf("Enter the number of rows: ");
-    scanf("%d", &rows);
-    for (i = 1; i <= rows; i++) {
-        for (j = 1; j <= i; j++) {
-            printf("* ");
+    int M, N, i;
+    printf("Enter the starting number (M): ");
+    scanf("%d", &M);
+
+    printf("Enter the ending number (N): ");
+    scanf("%d", &N);
+
+    for (i = M; i <= N; i++) {
+        if (i % 2 == 0) {
+            printf("%d ", i);
         }
-        printf("\n");
     }
 
     return 0;
@@ -32,7 +35,8 @@ int main() {
 ```
 
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/ed706716-2a7f-4625-bf70-768ee7b43785)
+![image](https://github.com/user-attachments/assets/96dfa16c-8704-44a7-94a7-91b9eefb138e)
+
 
 
 
