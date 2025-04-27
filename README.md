@@ -64,9 +64,26 @@ Write a C program to print the given triangular pattern using loop.
 5.	Continue the loop until you have printed the entire triangular pattern.
 
 ## PROGRAM:
+```
+#include <stdio.h>
 
+int main() {
+    int rows, i, j;
+    printf("Enter the number of rows: ");
+    scanf("%d", &rows);
+    for (i = 1; i <= rows; i++) {
+        for (j = 1; j <= i; j++) {
+            printf("* ");
+        }
+        printf("\n");
+    }
 
+    return 0;
+}
+
+```
 ## OUTPUT:
+![Screenshot 2025-04-27 191525](https://github.com/user-attachments/assets/8c2a0417-9a12-4a8a-9a95-192dc6c6033f)
 
 
 
